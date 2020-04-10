@@ -1,7 +1,3 @@
-🚫 The numbers 1️⃣ through 3️⃣ next to each item represent the week that part of the docs needs to be comepleted by.  Make sure to delete the numbers by the end of Labs.
-
-🚫 Each student has a required minimum number of meaningful PRs each week per the rubric.  Contributing to docs does NOT count as a PR to meet your weekly requirements.
-
 # API Documentation
 
 #### 1️⃣ Backend deployed via Google Firebase: https://console.firebase.google.com/project/raheem-b6ed6/overview) <br>
@@ -14,10 +10,9 @@ To get the server running locally: We integrated Firebase directly into the Reac
 
 🚫 Why did you choose this framework?
 
--    Point One - The stakeholder wanted it.
--    Point Two - We recommended alternatives, they did not appeal to the stakeholder.
+-    Point One - The stakeholder requested it specifically as the framework for their backend.
+-    Point Two - We recommended alternatives that could produce more complicated relationships, they were not of interest to the stakeholder for this project.
 -    Point Three - The project is small enough that it didn't require a deeply complex backend.
--    Point Four - The stakeholder wanted it.
 
 ## 2️⃣ Endpoints
 
@@ -127,43 +122,11 @@ stories
 
 ## 2️⃣ Actions
 
-🚫 This is an example, replace this with the actions that pertain to your backend
-
-`getOrgs()` -> Returns all organizations
-
-`getOrg(orgId)` -> Returns a single organization by ID
-
-`addOrg(org)` -> Returns the created org
-
-`updateOrg(orgId)` -> Update an organization by ID
-
-`deleteOrg(orgId)` -> Delete an organization by ID
-<br>
-<br>
-<br>
-`getUsers(orgId)` -> if no param all users
-
-`getUser(userId)` -> Returns a single user by user ID
-
-`addUser(user object)` --> Creates a new user and returns that user. Also creates 7 availabilities defaulted to hours of operation for their organization.
-
-`updateUser(userId, changes object)` -> Updates a single user by ID.
-
-`deleteUser(userId)` -> deletes everything dependent on the user
+n/a -- see organization routes
 
 ## 3️⃣ Environment Variables
 
-In order for the app to function correctly, the user must set up their own environment variables.
-
-create a .env file that includes the following:
-
-🚫 These are just examples, replace them with the specifics for your app
-    
-    *  STAGING_DB - optional development db for using functionality not available in SQLite
-    *  NODE_ENV - set to "development" until ready for "production"
-    *  JWT_SECRET - you can generate this by using a python shell and running import random''.join([random.SystemRandom().choice('abcdefghijklmnopqrstuvwxyz0123456789!@#\$%^&amp;*(-*=+)') for i in range(50)])
-    *  SENDGRID_API_KEY - this is generated in your Sendgrid account
-    *  stripe_secret - this is generated in the Stripe dashboard
+Environment variables created on the frontend. As a cloud-based
     
 ## Contributing
 
