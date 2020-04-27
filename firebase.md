@@ -105,6 +105,7 @@ firebase
 firebase
   .firestore()
   .collection(`collection-name`)
+  .doc(docId)
   .update(
     {
       //data to add to collection
@@ -124,6 +125,7 @@ firebase
 firebase
   .firestore()
   .collection(`collection-name`)
+  .doc(docId)
   .delete()
   .then(
     //this is anything you want to happen after a successful removal
