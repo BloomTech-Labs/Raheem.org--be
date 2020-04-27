@@ -1,6 +1,7 @@
 # API Documentation -- Raheem Backend
 
 #### 1️⃣ Backend deployed via [Google Firebase](https://console.firebase.google.com/project/raheem-b6ed6/overview) <br><br>
+- Firebase specific doc: [firebase.md](firebase.md)
 
 ## 1️⃣ Getting started
 
